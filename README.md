@@ -14,7 +14,7 @@
   ## Installation
   The README generator requires npm Inquirer package to run in Visual Studio. You will need to install this version by entering "npm i inquirer" in your terminal. Once installed, simply enter "node index.js" in the terminal to run the application.
   ## Usage
-  To initialize the application, enter node index.js to run the file. This will trigger a series of questions regarding the contents of the README document you wish to display. Follow the prompt to answer these questions, hit enter after you have finished. Once you have answered all required questions, your README file will be generated. You can update the content of the README file at anytime by running the application again and re-entering your answers.
+  To initialize the application, enter node index.js to run the file. This will trigger a series of questions regarding the contents of the README document you wish to display. Follow the prompt to answer these questions, hit enter after you have finished. Once you have answered all required questions, your README file will be generated. You can update the content of the README file at anytime by running the application again and re-entering your answers. See a walkthrough video of the application here: [Link to walkthrough video](https://drive.google.com/file/d/1sWACd8_JoRuTH5-oYU7DZ34XB19ibxLg/view)
   ## License
   This application is licensed under Boost, you can access the license via this link: https://www.boost.org/LICENSE_1_0.txt
 

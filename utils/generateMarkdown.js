@@ -50,7 +50,7 @@ function generateMarkdown(answers) {
   ## Installation
   ${answers.install}
   ## Usage
-  ${answers.usage}
+  ${answers.usage} See a walkthrough video of the application here: [Link to walkthrough video](https://drive.google.com/file/d/1sWACd8_JoRuTH5-oYU7DZ34XB19ibxLg/view)
   ${renderLicenseSection(answers.license)}
   ## Contributing
   ${answers.contribute}
