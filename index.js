@@ -56,7 +56,16 @@ const questions = [
 
 
 // function to initialize app
+function init() {
+    inquirer.prompt(questions)
+    .then((answers)=>{
+        const READMEcontent = generateMarkdown(answers)
+    fs.writeFile("README.md", READMEcontent, function(){
+        console.log("Readme generated")
+    })
 
+    })
+}
 
 // Function call to initialize app
 init();
