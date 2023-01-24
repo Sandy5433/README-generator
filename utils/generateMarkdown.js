@@ -13,7 +13,7 @@ function renderLicenseBadge(license) {
 // Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if(license === "Apache 2.0 License"){
+  if(license == "Apache 2.0 License"){
     return "https://opensource.org/licenses/Apache-2.0"
   } else if (license == "Boost"){
     return "https://www.boost.org/LICENSE_1_0.txt"
@@ -24,7 +24,7 @@ function renderLicenseLink(license) {
 // Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if(license === "No license"){
+  if(license == "No license"){
     return ""
   } else 
   return `## License
@@ -32,7 +32,7 @@ function renderLicenseSection(license) {
 `
 }
 
-//Create a function to generate markdown for README
+// Create a function to generate markdown for README
 function generateMarkdown(answers) {
   return `
   # ${answers.name}
@@ -40,7 +40,7 @@ function generateMarkdown(answers) {
   ## Description
   ${answers.description}
   ## Table of Contents
-  - [description](#description)
+  - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
@@ -57,8 +57,8 @@ function generateMarkdown(answers) {
   ## Tests
   ${answers.test}
   ## Questions
-  Check out my projects on my GitHub account at https://github.com/${answers.github}. 
-  If you have any questions about the application, you can reach me via my email at ${answers.email} 
+  Check out my projects on my GitHub account at https://github.com/${answers.github}
+  . If you have any questions about the application, you can reach me via my email at ${answers.email} 
   `
 }
 
